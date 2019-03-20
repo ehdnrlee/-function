@@ -26,7 +26,8 @@
 		<constructor-arg name="sqlSessionFactory"
 			ref="sqlSessionFactory" />
 	</bean> 
-	
+	<bean id="pwdEncoder"
+		class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
 	<mybatis-spring:scan
 		base-package="kr.co.pro.dao" />
 	
