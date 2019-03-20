@@ -11,4 +11,5 @@
 	<select id="getBoardName" resultType="string">
 		select distinct boardName from board
 	</select> 
+	
 </mapper>
