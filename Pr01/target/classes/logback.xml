@@ -7,10 +7,11 @@
 		</encoder>
 	</appender>
 	<!--  내가 만든 클래스에 대한 로깅 설정 -->
-	<logger name="com.icia" level="info" />
+	<logger name="kr.co.pro" level="info" />
 	<!--  3rd party 로깅 설정 -->
 	<logger name="org.springframework" level="info" />
 	<!--  log4jdbc 로깅 설정 -->
+	<logger name="jdbc.sqlonly" level="info" />
 	<logger name="jdbc.resultsettable" level="info"/>
 	<logger name="jdbc.audit" level="warn"/>
 	<logger name="jdbc.sqltiming" level="warn"/>

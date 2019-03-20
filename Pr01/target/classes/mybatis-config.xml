@@ -6,5 +6,6 @@
 <configuration>
 	<typeAliases>
 		<typeAlias alias="user" type="kr.co.pro.entity.User" />
+		<typeAlias alias="authorities" type="kr.co.pro.entity.Authorities" />
 	</typeAliases>
 </configuration>

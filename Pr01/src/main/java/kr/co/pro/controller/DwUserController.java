@@ -14,7 +14,7 @@ public class DwUserController {
 	
 	@RequestMapping(value="/joinhome", method= RequestMethod.POST)
 	public String joinHome(Model model) {
-		System.out.println("Home Controller");
+		System.out.println("가입진행1-1 Controller");
 		
 		
 		
