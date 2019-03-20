@@ -11,9 +11,15 @@ import kr.co.pro.entity.User;
 @Service
 public class DwUserService {
 	@Autowired DwUserDao dao;
-	User user;
-	public String test() {
-		
-		return dao.joinuser(user);
+	public String join(User users) {
+		String result;
+		System.out.println("가입 서비스과정");
+		if(dao.joinuser(users)>0) {
+			result="home";
+		}
+		else {
+			result="Dw/join";
+		}
+		return result;
 	}
 }

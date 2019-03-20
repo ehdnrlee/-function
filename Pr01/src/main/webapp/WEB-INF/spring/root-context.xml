@@ -15,7 +15,7 @@
 	 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
         <property name="driverClass" value="org.mariadb.jdbc.Driver" />   
-        <property name="url" value="jdbc:mariadb://localhost:8082/pr01" />
+        <property name="url" value="jdbc:mariadb://mtsb.iptime.org:3306/pr01" />
         <property name="username" value="root4" />
         <property name="password" value="1234" />
     </bean>

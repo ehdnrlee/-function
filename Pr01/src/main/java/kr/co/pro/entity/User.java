@@ -6,6 +6,9 @@ public class User {
 	String irum;
 	String pNumber;
 	String email;
+	public User() {
+	}
+	
 	public User(String id, String pwd, String irum, String pNumber, String email) {
 		super();
 		this.id = id;

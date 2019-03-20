@@ -10,7 +10,7 @@
 <h1>
 	회원가입 정보입력   
 </h1>
-<form action="/joinhome" method="post">
+<form action="/pro/join" method="post">
 <P> 아이디: <input type="text" name="id"></P>
 <P> 비번: <input type="password" name="pwd"></P>
 <P> 이름: <input type="text" name="irum"></P>
