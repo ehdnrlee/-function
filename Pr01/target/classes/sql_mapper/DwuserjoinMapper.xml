@@ -4,6 +4,11 @@
 	<insert id="joinuser" parameterType="string">
 		insert into users values(#{id},#{pwd},#{irum},#{pNumber},#{email})
 	</insert>
-
-
+	<select id="selectPwd" parameterType="String" resultType="String">
+		select pwd from users where id=#{id};
+	</select>
+	<select id="getUserInfo" parameterType="String" resultType="user">
+		select * from users where id=#{id}
+	</select>
+	
 </mapper>
